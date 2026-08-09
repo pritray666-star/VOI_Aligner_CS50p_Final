@@ -65,3 +65,16 @@ and dictionaries and return plain lists and dictionaries, so they can be
 tested without needing a real Excel file at all.
 
 ## How to run it
+\```
+pip install -r requirements.txt
+python project.py
+\```
+
+By default this reads `CS50p_VOI_template.xlsx` and writes
+`CS50p_VOI_output.xlsx`.
+
+## How to run the tests
+
+\```
+pytest test_project.py
+\```
